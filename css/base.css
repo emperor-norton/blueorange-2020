@@ -1,13 +1,14 @@
 /* @import url(https://fonts.googleapis.com/css?family=Nixie+One); */
 /* @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville); */
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700,800,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+
 
 body {
 	background-color: rgba(255,255,255,1);
 	}
 
-html, body {height:100%;} 
+html, body {height:100%;}
 
 a:hover {
 	text-decoration: none;
@@ -24,20 +25,20 @@ a:link, a:visited {
 	background: linear-gradient(135deg, rgba(246,246,244,1) 0%, rgba(200,200,196,1) 100%);
 	margin-top: 0px;
 	}
-	
+
 	@media (min-width: 48em) {
 	.hero {
 	background: rgba(246,246,244,1);
 	background: linear-gradient(135deg, rgba(246,246,244,1) 0%, rgba(200,200,196,1) 100%);
 	margin-top: 0px;}
 	}
-	
+
 .hero-small {
 	margin-top:0px;
 	background-repeat: no-repeat;
 	min-height: 350px;
 	height: 100%;}
-	
+
 	@media (min-width: 48em) {
 	.hero-small {
 	margin-top:0px;
@@ -54,7 +55,7 @@ a:link, a:visited {
 	background-repeat: no-repeat;
 	min-height: 300px;
 	height: 20%;}
-	
+
 	@media (min-width: 48em) {
 	.hero-xsmall {
 	background: #00aeef url(../angle-big.svg);
@@ -77,88 +78,88 @@ a:link, a:visited {
 	height: 40%;}
 	}
 
-	
+
 .hero-space {
 	padding-top:10%;}
-	
+
 	@media (min-width: 34em) {
 	.hero-space {
 	padding-top:20%;}
 	}
-	
+
 .hero-space-small {
 	margin-top:30px;}
-	
+
 	@media (min-width: 34em) {
 	.hero-space-small {
 	margin-top:50px;}
 	}
 
-/* Background tints*/	
-	
+/* Background tints*/
+
 .bg-grey {
 	background: rgba(246,246,244,1);
 	background: linear-gradient(135deg, rgba(246,246,244,1) 0%, rgba(200,200,196,1) 100%);
-	}	
-	
+	}
+
 .bg-tripadvisor {
 	background: rgba(231,228,215,1);
 	background: linear-gradient(135deg, rgba(246,244,240,1) 0%, rgba(227,222,198,1) 100%);
-	}	
+	}
 
 .bg-udemy {
 	background: rgba(225,228,226,1);
 	background: linear-gradient(135deg, rgba(225,228,226,1) 0%, rgba(205,210,207,1) 100%);
-	}	
+	}
 
 .bg-communications {
 	background: rgba(221,218,222,1);
 	background: linear-gradient(135deg, rgba(221,218,222,1) 0%, rgba(200,198,208,1) 100%);
-	}	
+	}
 
 .bg-autos {
 	background: rgba(244,244,246,1);
 	background: linear-gradient(135deg, rgba(244,244,246,1) 0%, rgba(200,200,204,1) 100%);
-	}	
+	}
 
 .bg-marketing {
 	background: rgb(208,212,217);
 	background: linear-gradient(135deg, rgba(230,232,235,1) 0%, rgba(215,226,236,1) 100%);
-	}	
+	}
 
 .bg-hired {
 	background: rgba(223,218,218,);
 	background: linear-gradient(135deg, rgba(223,218,218,1) 0%, rgba(205,194,195,1) 100%);
-	}	
+	}
 
 
 /* */
-	
+
 h1 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 600;
 	font-style: normal;
 	font-size: 2.5em;
 	color: rgba(0, 0, 0, 0.8);}
-	
+
 	@media (max-width: 34em) {
 	h1 {
 	font-size: 2em;}
 	}
-	
+
 h2 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 500;
 	font-style: normal;
 	font-size: 2.25em;
 	color: rgba(0, 0, 0, 0.9);}
-	
+
 	@media (max-width: 34em) {
 	h2 {
 	font-size: 1.4em;
 	line-height: 1.3em;}
 	}
-	
+
 h4 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
@@ -168,7 +169,7 @@ h4 {
 	padding-left: 20px;
 	margin-top: -30px;
 	margin-bottom: 20px;}
-	
+
 	@media (max-width: 34em) {
 	h4 {
 	font-size: 1.1em;
@@ -176,41 +177,41 @@ h4 {
 	}
 
 p {
-	font-family: 'Lato', serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 500;
  	font-size: 1.1em;
 	line-height: 1.55em;
 	color: rgba(0, 0, 0, 0.6);}
 
-	@media (min-width: 34em) {	
+	@media (min-width: 34em) {
 	p {
 	font-size: 1.1em;}
 	}
-	
+
 .border {
 	border: 1px solid rgba(255,255,255,.3);
 	padding:2px;
 	}
-	
+
 .spacer {
 	margin-top:140px;
 	}
-	
+
 	@media (max-width: 34em) {
 	.spacer {
 	margin-top:90px;}
 	}
-	
-	
+
+
 .spacerb {
 	margin-bottom:125px;
 	}
-	
+
 	@media (max-width: 34em) {
 	.spacerb {
 	margin-bottom:80px;}
 	}
-	
+
 .icon-font {
 	font-size: .8em;
 	}
@@ -237,12 +238,12 @@ p {
 	margin-top: 10px;
 	padding-bottom: 80px;
 	}
-	
+
 
 .spacer50 {
 	margin-top: 50px;
 	}
-	
+
 /* Begin the styles for the portfolio links */
 .nopadding {
 	margin: 0px;
@@ -262,7 +263,7 @@ p {
 	margin-right: 120px;
 	border-right: 5px solid #fff;
 	border-left: 5px solid #fff;
-	font-family: 'Lato', serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 900;
 	font-size: 1.7em;
 	line-height:1.1em;
@@ -278,7 +279,7 @@ p {
 figure {
 	overflow:hidden;
 	}
-	
+
 .on{
 	opacity:.35;
 	}
@@ -294,7 +295,7 @@ figure {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
 	}
-	
+
 /* End the styles for the portfolio links */
 
 .header {
@@ -342,4 +343,3 @@ footer .list-inline-item {
 footer .list-inline-item:first-child {
 	padding-left: 0px;
 	}
-
