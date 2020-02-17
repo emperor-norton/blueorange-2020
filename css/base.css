@@ -103,8 +103,8 @@ a:link, a:visited {
 	}
 
 .bg-tripadvisor {
-	background: rgba(231,228,215,1);
-	background: linear-gradient(135deg, rgba(246,244,240,1) 0%, rgba(227,222,198,1) 100%);
+	background: rgba(228,214,202,1);
+	background: linear-gradient(135deg, rgba(228,214,202,1) 0%, rgba(223,195,170,1) 100%);
 	}
 
 .bg-udemy {
