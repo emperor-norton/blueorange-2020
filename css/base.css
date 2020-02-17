@@ -104,7 +104,7 @@ a:link, a:visited {
 
 .bg-tripadvisor {
 	background: rgba(228,214,202,1);
-	background: linear-gradient(135deg, rgba(228,214,202,1) 0%, rgba(223,195,170,1) 100%);
+	background: linear-gradient(135deg, rgba(228,214,202,1) 0%, rgba(228,205,180,1) 100%);
 	}
 
 .bg-udemy {
