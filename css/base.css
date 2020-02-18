@@ -95,6 +95,15 @@ a:link, a:visited {
 	margin-top:50px;}
 	}
 
+.index-fix {
+	margin-bottom: 0px;
+ }
+
+ @media (min-width: 34em) {
+ .index-fix {
+ margin-top: -20px;}
+ }
+
 /* Background tints*/
 
 .bg-grey {
