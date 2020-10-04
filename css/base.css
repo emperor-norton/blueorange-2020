@@ -1,7 +1,9 @@
 /* @import url(https://fonts.googleapis.com/css?family=Nixie+One); */
 /* @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville); */
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400;500;600;700;800;900&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap'); */
@@ -11,7 +13,7 @@
 
 body {
 	background-color: rgba(255,255,255,1);
-	font-family: 'Nunito Sans', sans-serif;
+	font-family: 'Inter', sans-serif;
 	}
 
 html, body {height:100%;}
@@ -98,7 +100,7 @@ a:link, a:visited {
 
 	@media (min-width: 34em) {
 	.hero-space-small {
-	margin-top:50px;}
+	margin-top:100px;}
 	}
 
 .index-fix {
@@ -153,58 +155,45 @@ a:link, a:visited {
 /* */
 
 h1 {
-	font-weight: 700;
+	font-family: 'Lora', serif;
+	font-weight: 400;
 	font-style: normal;
-	font-size: 3em;
-	letter-spacing: -.2px;
+	font-size: 5em;
+	letter-spacing: -1px;
 	color: rgba(0, 0, 0, 0.8);}
 
 	@media (max-width: 34em) {
 	h1 {
-	font-size: 2em;
+	font-size: 4em;
 	letter-spacisng: .05px;}
 	}
 
 h2 {
-	font-weight: 600;
+	font-weight: 500;
 	font-style: normal;
-	font-size: 3em;
-	letter-spacing: -.2px;
+	font-size: 1.6em;
+	line-height: 1.6em;
 	color: rgba(0, 0, 0, 0.9);}
 
 	@media (max-width: 34em) {
 	h2 {
-	font-size: 1.6em;
+	font-size: 1.1em;
 	line-height: 1.3em;
-	letter-spacing: .5px;}
 	}
-
-h4 {
-	font-weight: 500;
-	display: none;
-	font-style: normal;
-	font-size: 1.55em;
-	color: rgba(0, 0, 0, 0.7);
-	padding-left: 20px;
-	margin-top: -30px;
-	margin-bottom: 20px;}
-
-	@media (min-width: 34em) {
-	h4 {
-	font-size: 1.3em;
-	line-height: 1em;}
 	}
 
 p {
-	font-weight: 500;
- 	font-size: 1.1em;
+	font-family: 'Inter', serif;
+	font-weight: 300;
+	font-size: 1.3em;
 	line-height: 1.55em;
 	color: rgba(0, 0, 0, 0.7);}
 
-	@media (min-width: 34em) {
+	@media (max-width: 34em) {
 	p {
-	font-size: 1.3em;}
+	font-size: 1.1em;}
 	}
+
 
 .border {
 	border: 1px solid rgba(255,255,255,.3);
@@ -287,7 +276,8 @@ p {
 	margin-right: 120px;
 	border-right: 5px solid #fff;
 	border-left: 5px solid #fff;
-	font-weight: 600;
+	font-family: 'Inter', serif;
+	font-weight: 500;
 	font-size: 1.3em;
 	line-height:1.1em;
 	color: rgba(255, 255, 255, 1);
