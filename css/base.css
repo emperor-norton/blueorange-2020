@@ -2,9 +2,7 @@
 /* @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville); */
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400;500;600;700;800;900&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap'); */
 
@@ -13,7 +11,7 @@
 
 body {
 	background-color: rgba(255,255,255,1);
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Nunito Sans', sans-serif;
 	}
 
 html, body {height:100%;}
@@ -88,16 +86,11 @@ a:link, a:visited {
 
 
 .hero-space {
-	padding-top:20%;
-	margin-bottom: 40px;
-	margin-top: -30px;
-	}
+	padding-top:10%;}
 
 	@media (min-width: 34em) {
 	.hero-space {
-	padding-top:10%;
-	margin-bottom: 60px;
-	margin-top: 20px;}
+	padding-top:20%;}
 	}
 
 .hero-space-small {
@@ -114,8 +107,7 @@ a:link, a:visited {
 
  @media (min-width: 34em) {
  .index-fix {
- margin-top: -20px;
- margin-bottom: 60px;}
+ margin-top: -20px;}
  }
 
 /* Background tints*/
@@ -161,34 +153,28 @@ a:link, a:visited {
 /* */
 
 h1 {
-	margin-left: -5px;
-	font-weight: 300;
+	font-weight: 700;
 	font-style: normal;
-	font-size: 6em;
-	letter-spacing: -1.8px;
-	line-height: 110px;
-	padding-bottom: 20px;
+	font-size: 3em;
+	letter-spacing: -.2px;
 	color: rgba(0, 0, 0, 0.8);}
 
 	@media (max-width: 34em) {
 	h1 {
-	font-size: 4em;
-	line-height: 70px;
-	padding-bottom: 10px;
-	xletter-spacing: .05px;}
+	font-size: 2em;
+	letter-spacisng: .05px;}
 	}
 
 h2 {
-	font-weight: 300;
+	font-weight: 600;
 	font-style: normal;
 	font-size: 3em;
-	letter-spacing: -.7px;
-	line-height: 65px;
+	letter-spacing: -.2px;
 	color: rgba(0, 0, 0, 0.9);}
 
 	@media (max-width: 34em) {
 	h2 {
-	font-size: 2.2em;
+	font-size: 1.6em;
 	line-height: 1.3em;
 	letter-spacing: .5px;}
 	}
@@ -210,15 +196,14 @@ h4 {
 	}
 
 p {
-	font-family: 'Merriweather', serif;
-	font-weight: 300;
+	font-weight: 500;
  	font-size: 1.1em;
-	line-height: 1.9em;
+	line-height: 1.55em;
 	color: rgba(0, 0, 0, 0.7);}
 
 	@media (min-width: 34em) {
 	p {
-	font-size: 1.2em;}
+	font-size: 1.3em;}
 	}
 
 .border {
@@ -284,10 +269,9 @@ p {
 	}
 
 /* Begin the styles for the portfolio links */
-
 .nopadding {
 	margin: 0px;
-	padding: 8px;
+	padding: 5px;
 	margin-top: -16px;
 	text-shadow: 0px 0px 25px rgba(100, 100, 100, 1);
 	}
@@ -303,7 +287,7 @@ p {
 	margin-right: 120px;
 	border-right: 5px solid #fff;
 	border-left: 5px solid #fff;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 1.3em;
 	line-height:1.1em;
 	color: rgba(255, 255, 255, 1);
