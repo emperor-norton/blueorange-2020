@@ -14,6 +14,7 @@
 body {
 	background-color: rgba(255,255,255,1);
 	font-family: 'Inter', sans-serif;
+	scroll
 	}
 
 html, body {height:100%;}
@@ -88,7 +89,7 @@ a:link, a:visited {
 
 
 .hero-space {
-	padding-top:10%;}
+	padding-top:20%;}
 
 	@media (min-width: 34em) {
 	.hero-space {
@@ -331,6 +332,41 @@ figure {
 	height: 40px;
 	}
 
+.boxheader {
+	z-index: 20;
+	-webkit-transition: background-color .3s;
+	-moz-transition:    background-color .3s;
+	-ms-transition:     background-color .3s;
+	-o-transition:      background-color .3s;
+	transition:         background-color .3s;
+	background-color: #168dd6;
+	width: 6%;
+	max-width: 64px;
+	min-width: 44px;
+	position: fixed;
+	display: block;
+	}
+
+	@media (max-width: 48em) {
+	.boxheader {
+	}
+	}
+
+	@media (max-width: 34em) {
+	.boxheader {
+	left: 30px;
+	}
+	}
+
+.boxheader:hover {
+		background-color: #1378b6;
+		}
+
+.boxheader img{
+	width: 60%;
+	margin: 20%;
+	}
+
 .staple {
 	height: 1px;
 	width: 50px;
@@ -361,6 +397,11 @@ footer ul {
 
 a:link, a:visited {
 	text-decoration: none;
+	-webkit-transition: color .3s;
+	-moz-transition:    color .3s;
+	-ms-transition:     color .3s;
+	-o-transition:      color .3s;
+	transition:         color .3s;
 	color: rgba(0, 0, 0, 0.6);
 	}
 
