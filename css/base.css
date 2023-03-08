@@ -155,10 +155,15 @@ a:link, a:visited {
 	}
 
 .bg-hired {
-	background: rgba(223,218,218,);
-	background: linear-gradient(135deg, rgba(223,218,218,1) 0%, rgba(205,194,195,1) 100%);
+	background: rgba(223, 218, 218,);
+	background: linear-gradient(135deg, rgba(223, 218, 218,1) 0%, rgba(205,194,195,1) 100%);
 	}
 
+.bg-sortly {
+	background: rgba(233, 218, 218,);
+	background: linear-gradient(135deg, rgba(233, 218, 218,1) 0%, rgba(215,194,195,1) 100%);
+	}
+	
 .bg-sgs {
 	background: rgba(211,223,236,);
 	background: linear-gradient(135deg, rgba(211,222,233,1) 0%, rgba(203,214,224,1) 100%);
