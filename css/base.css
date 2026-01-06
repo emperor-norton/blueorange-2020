@@ -317,7 +317,7 @@ p {
 	border-left: 5px solid #fff;
 	font-family: 'Inter', serif;
 	font-weight: 500;
-	font-size: 1.1em;
+	font-size: 1.0em;
 	line-height:1.1em;
 	color: rgba(0, 0, 0, .85);
 	opacity: .97;
@@ -325,7 +325,7 @@ p {
 
 	@media (min-width: 34em) {
 	.caption {
-	font-size: 1.7em;}
+	font-size: 1.6em;}
 	}
 
 @media (max-width: 24em) {
