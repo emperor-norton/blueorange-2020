@@ -112,7 +112,7 @@ a:link, a:visited {
 		}
 
 .index-fix {
-	margin-bottom: 0px;
+	margin-bottom: -30px;
  }
 
  @media (min-width: 34em) {
