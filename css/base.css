@@ -222,6 +222,22 @@ p {
 	font-size: 1.1em;}
 	}
 
+.meta {
+	font-family: 'Inter', serif;
+	padding: 0px;
+	margin-bottom: 100px;
+	color: rgba(0, 0, 0, 0.7);}
+
+.meta p {
+	font-family: 'Inter', serif;
+	font-weight: 500;
+	font-size: 1em;
+	line-height: 1.6em;
+	padding: 0px;
+	margin-bottom: 10px;
+	letter-spacing: -0.02em;
+	}
+
 .topic {
 	font-family: 'Inter', serif;
 	font-weight: 400;
@@ -328,6 +344,13 @@ p {
 	font-size: 1.6em;
 	padding: 16px 10px 6px 20px;
 	}	
+	}
+
+.port-caption {
+	text-align: center;
+	padding-top: 20px;
+	color: rgba(255, 255, 255, .65);
+	font-style: italic;
 	}
 
 @media (max-width: 24em) {
